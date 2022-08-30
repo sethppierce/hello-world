@@ -1,2 +1,7 @@
 # hello-world
-My personal website for 102
+
+## blah blah blah my name is seth pierce
+
+### hello
+
+## blah
