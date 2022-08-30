@@ -1,7 +1,5 @@
 # hello-world
 
-## blah blah blah my name is seth pierce
+## Seth Pierce's Coding 102 Webpage
 
-### hello
-
-## blah
+My Food Elitist Groups website where we "compare" ways to prepare food
