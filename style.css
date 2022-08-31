@@ -1,4 +1,7 @@
 body {background-color: rgb(243, 117, 67);
+    border-color: rgb(81, 228, 45);
+    border-style: solid;
+    border-bottom: 0px;
 }
 
 header {border-color: rgb(81, 228, 45);
@@ -11,6 +14,8 @@ h1 {
     color: rgb(38, 235, 38);
     font-size: 100px;
     text-align: center;
+    text-decoration-line: underline;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 nav {
@@ -42,6 +47,10 @@ li {display: inline-block;
     border-style: solid;
     width: 100%;
     height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:30px;
+    
+
 }
 
 #second {border-color: rgb(81, 228, 45);
@@ -50,6 +59,8 @@ li {display: inline-block;
     border-style: solid;
     width: 100%;
     height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:30px;
 }
 
 #firstimg{  width: 100%;
@@ -60,4 +71,26 @@ li {display: inline-block;
     
     }
 
-footer {text-align: center;}
+footer {text-align: center;
+    border-top: 4px dotted  rgb(81, 228, 45) ;
+    margin-top: 10px;
+    background-color: salmon;
+    margin-bottom: px;
+}
+
+h2 {  border-color:  rgb(81, 228, 45);
+    border-bottom: 4px dotted rgb(81, 228, 45);
+    color: rgb(38, 235, 38);
+    font-size: 35px;
+    padding-bottom: 10px;
+    text-decoration-line: underline;
+ }
+
+#thoughts {color: rgb(38, 235, 38);
+    font-size: 25px;
+    text-align: center;
+    text-decoration-line: underline;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(243, 117, 67);
+    border-color:  rgb(81, 228, 45);
+}
