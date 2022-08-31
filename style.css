@@ -1,0 +1,51 @@
+body {background-color: rgb(243, 117, 67);
+}
+
+header {border-color: rgb(81, 228, 45);
+    border-width: 2px;
+    background-color: salmon;
+    border-style: solid;
+}
+
+h1 {
+    color: rgb(38, 235, 38);
+    font-size: 100px;
+    text-align: center;
+}
+
+nav {
+   color: #000;
+   border-color:  rgb(81, 228, 45);
+   border-top: 4px dotted rgb(81, 228, 45);
+
+}
+
+li {display: inline-block;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.layout {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px 8px;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+
+#first {border-color: rgb(81, 228, 45);
+    border-width: 2px;
+    background-color: salmon;
+    border-style: solid;
+}
+
+#second {border-color: rgb(81, 228, 45);
+    border-width: 2px;
+    background-color: salmon;
+    border-style: solid;
+}
+
+footer {text-align: center;}
