@@ -8,16 +8,15 @@
         <script src="app.js"></script>
         <header>
             <h1>Food Elitist Group</h1>
-            <script id="welcome">let elitist = 'Welcome Fellow Scrutinizers of Food';
-            document.write(elitist)
-            </script>
+            <button id="thoughts" onclick="greeting()">Are you an Elitist?</button>
+            <script></script>
             <nav>
                 <ul>
                     <li><a href="jmyrtil.github.io/hello-world/">Joel's page</a></li><li><a href="/">Cartiae's page</a></li>
                 </ul>
             </nav>
         </header>
-        <script> alert('THIS WEBSITE IS SATIRE!!');</script>
+        <script> alertSatire();</script>
         <main>
             <section class="layout">
                 <div><img  id="firstimg" src="https://static7.depositphotos.com/1301843/779/i/600/depositphotos_7796209-stock-photo-frying-using-old-oil.jpg"></div>
@@ -25,29 +24,12 @@
                     <h2>Why would you even eat this?</h2>
                         <p>What is even going on in this picture, could anyone tell me? Because as I see it, it looks like Frodo has taken a trip to Mount Doom to destroy the sanctity of fries. Disgusting. I am outraged that one would even consider this as a viable source of nutrition. At this point, you might as well microwave the fries, they'll come out just as soggy but you don't have to wait for the OIL (you heard that right OIL) to heat up to mindnumblingly scorching temperatures.</p>
                             <button id="thoughts" onclick="eatThis()">Yes or No?</button>
-                            <script>function eatThis(){
-                            let answer = prompt('Would you eat this oil soaked mess?');
-                            let message;
-                            if (answer == 'yes'){
-                                message = 'You disgust me.'
-                                alert(message)}
-                                else if(answer == 'Yes'){
-                                message = 'You disgust me.';
-                                alert(message)}
-                                else if (answer == 'No'){
-                                message = 'Thank you for being civilized!';
-                                alert(message)}
-                                else if(answer == 'no'){
-                                message = 'Thank you for being civilized!';
-                                alert(message)}
-                                else{}
-                            }
-                            </script>
                     </div>
                 <div id="second">
                     <h2 >When you could eat this?</h2>
                         <p>Look at this neat, clean, and beautiful presentation... And all you have to do is stick whatever fries you want into this magic little box? The result?? Perfection. No hassle, no monitoring oil temperatures, it just... does it for you. What an absolutely wonderful creation by mankind. Crunchy fries that aren't covered in oil in the same amount of time, or less? Yeah i'll take that option, will you be stuck in the stone age?</p>
-                </div>
+                            <button id="thoughts" onclick="eatThat()">Yes or No?</button>
+                    </div>
                 <div ><img id="secondimg" src="https://st.depositphotos.com/3424147/52367/i/600/depositphotos_523671352-stock-photo-french-fries-cooked-in-air.jpg"></div>        
             </section>
         </main>
