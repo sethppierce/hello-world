@@ -36,11 +36,6 @@ function greeting (){
 
     }
 
-
-
-
-
-
 function eatThis(){
     let answer = prompt('Would you eat this oil soaked mess?');
     let message;
