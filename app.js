@@ -5,28 +5,41 @@
 // let x= 11;
 
 
+let emsg = 'HELLO'
+let stars;
 
+function rating(){
+    while(true){
+        stars = prompt('Rate us 1-5 Stars!');
+
+        if (stars > 5){alert('Please enter a number 1-5');}
+        else if (stars < 1){alert('Please enter a number 1-5');}
+        else if (isNaN(stars)){alert('Please enter a number 1-5');}
+        else{break;}
+    }
+    for(let i = 1; i <= stars; i++){
+        document.write('<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmFTnkZJrixLb3T1FID3463dWSdqxHCczUNw&usqp=CAU" alt="star" class="star"/>');
+    }}
 
 
 function greeting (){
     let elitist = prompt('Are you a Fellow Food Elitist?');
     if (elitist == 'yes'){
-        alert( 'Welcome Brethren!!')}
+        alert('Welcome Brethren!!')}
         else if(elitist == 'Yes'){
-        alert( 'Welcome Brethren!!')}
+        alert('Welcome Brethren!!')}
         else if (elitist == 'No'){
-        alert('YOU ARE NOT WELCOME HERE')}
+        alert('YOU ARE NOT WELCOME HERE!!')}
         else if(elitist == 'no'){
-        alert('YOU ARE NOT WELCOME HERE')}
+        alert('YOU ARE NOT WELCOME HERE!!')}
         else{}
-        
-        }
+
+    }
 
 
 
-        
 
-function showGreet(){document.write(message)}
+
 
 function eatThis(){
     let answer = prompt('Would you eat this oil soaked mess?');

@@ -94,3 +94,15 @@ h2 {  border-color:  rgb(81, 228, 45);
     background-color: rgb(243, 117, 67);
     border-color:  rgb(81, 228, 45);
 }
+
+.star {text-align: center;
+    width: 100px;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+
+#starpic { text-align: center;
+
+ }
